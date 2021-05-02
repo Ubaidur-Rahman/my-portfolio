@@ -1,0 +1,66 @@
+.text-color{
+    color: #E31B6D;
+    color: #05C2C9;
+}
+.bg-color{
+    color: #252934;
+}
+header{
+	background-color: #071e3d;
+	display: block;
+	
+	margin-top: 0;
+	padding: 100px;
+}
+
+.fixed-part{
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: verdana;
+	/*for get this part in the center. to move change the top and left value.*/
+	margin: 50px 0 0 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 800;
+}
+
+.changing-part{
+	display: inline-block;
+	height: 33px;
+	overflow: hidden;
+	color: #278ea5;
+}
+
+@media(max-width:576px){
+	.changing-part{
+		font-size: 20px;
+	}
+    .fixed-part{
+        font-size: 20px;
+    }
+}
+
+.changing-text{
+	display: inline-block;
+	animation: rotate 6s infinite;
+}
+
+@keyframes rotate{
+	0%{
+		transform: translateY(5px);
+	}
+	25%{
+		transform: translateY(-55px);
+	}
+	50%{
+		transform: translateY(-105px);
+	}
+	75%{
+		transform: translateY(-155px);
+	}
+	100%{
+		transform: translateY(-5px);
+	}
+}

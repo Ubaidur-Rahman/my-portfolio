@@ -1,25 +1,44 @@
-import logo from './logo.svg';
+import Particles from 'react-particles-js';
 import './App.css';
+import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+      <div className = "App">
+      <Navbar />
+      <Particles 
+                params={{
+                    "particles": {
+                        "number": {
+                          "value": 130
+                        },
+                        "size": {"value": 2}
+                    },
+                        "interactivity": {
+                            "events": {
+                              "onhover": {
+                                "enable": true,
+                                "mode": "repulse"
+                              }
+                            }
+                        },
+                        
+                    
+                }}
+                height="100vh"
+                
+                 />
+        
+        <Header />
+        <Blogs />
+        <Contact />
+        <Footer />
+      </div>
+  )
 }
 
 export default App;
