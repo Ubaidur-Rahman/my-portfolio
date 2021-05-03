@@ -16,7 +16,7 @@ const Contact = () => {
     e.target.reset();
   }
   return (
-    <div className="row d-flex justify-content-center">
+    <div id="contact" className="row d-flex justify-content-center">
     <h2 className='component-title m-5'>Contact</h2>
       <div className="col-md-6 ">
       <div className='mb-5' style={{ backgroundColor: "#EFEFEF" ,borderRadius: '15px' }}>

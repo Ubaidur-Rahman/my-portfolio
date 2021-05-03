@@ -5,9 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Aos from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from 'react';
-import Particles from 'react-particles-js';
+import { Link } from 'react-router-dom';
 import './Footer.css';
-import particleStyle from './particleStyle';
+
 
 const Footer = () => {
 
@@ -18,16 +18,16 @@ const Footer = () => {
 
     return (
         <footer className="footer-section">
-         <Particles params={particleStyle} height="40vh" id="particle-js" />
+         
             <div className="container-fluid p-3">
                 <h2 className='divider text-center component-title'>Get In Touch</h2>
                 
                 <div className="footer-cta pt-5 pb-5">
                     <div className="footer-social-icon mb-5 text-center">
-                        <a rel="noreferrer" href="https://web.facebook.com/ubaidurarian/" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faFacebookF} className="socialIcon facebook-bg" /></a>
-                        <a rel="noreferrer" href="https://twitter.com/ubaidurarian" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faTwitter} className="socialIcon twitter-bg"/></a>
-                        <a rel="noreferrer" href="https://www.linkedin.com/in/ubaidurarian/" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="socialIcon linkedIn-bg" /></a>
-                        <a rel="noreferrer" href="https://github.com/Ubaidur-Rahman" rel="noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub} className="socialIcon github-bg" /></a>
+                        <a rel="noreferrer" href="https://web.facebook.com/ubaidurarian/"  target="_blank"><FontAwesomeIcon icon={faFacebookF} className="socialIcon facebook-bg" /></a>
+                        <a rel="noreferrer" href="https://twitter.com/ubaidurarian"  target="_blank"><FontAwesomeIcon icon={faTwitter} className="socialIcon twitter-bg"/></a>
+                        <a rel="noreferrer" href="https://www.linkedin.com/in/ubaidurarian/"  target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="socialIcon linkedIn-bg" /></a>
+                        <a rel="noreferrer" href="https://github.com/Ubaidur-Rahman" target="_blank"><FontAwesomeIcon icon={faGithub} className="socialIcon github-bg" /></a>
                     </div>
                     <div className="row gx-2">
                         <div data-aos="flip-right" className="col-xl-4  col-md-4">
@@ -72,11 +72,11 @@ const Footer = () => {
                             <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                                 <div className="footer-menu">
                                     <ul>
-                                        <li><a rel="noreferrer" href="#">Home</a></li>
-                                        <li><a rel="noreferrer" href="#">About Me</a></li>
-                                        <li><a rel="noreferrer" href="#">Projects</a></li>
-                                        <li><a rel="noreferrer" href="#">Blogs</a></li>
-                                        <li><a rel="noreferrer" href="#">Contact</a></li>
+                                        <li><Link to="/" className=" custom-nav-style " >Home</Link></li>
+                                        <li><Link to="/aboutMe" className=" custom-nav-style " >About Me</Link></li>
+                                        <li><Link to="/projects" className=" custom-nav-style " >Projects</Link></li>
+                                        <li><Link to="/blogs" className=" custom-nav-style " >Blogs</Link></li>
+                                        <li><Link to="/contact" className=" custom-nav-style " >Contact</Link></li>
                                     </ul>
                                 </div>
                             </div>

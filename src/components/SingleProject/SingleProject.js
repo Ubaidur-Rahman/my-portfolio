@@ -1,3 +1,6 @@
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEye } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SingleProject = (props) => {
   const { title, description, img, gitHubRepo, liveLink } = props.project;
@@ -12,7 +15,10 @@ const SingleProject = (props) => {
           <div className="col-md-6"><div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{description}</p>
-            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
+            <p className="card-text d-flex justify-content-around">
+            <a className="custom-btn-bg text-decoration-none" rel="noreferrer" href={liveLink} target="_blank"><FontAwesomeIcon icon={faEye}/>Demo</a>
+            <a className="custom-btn-bg text-decoration-none" rel="noreferrer" href={gitHubRepo} target="_blank"><FontAwesomeIcon icon={faGithub}/>Code</a>
+            </p>
           </div></div>
         </div>
       </div>

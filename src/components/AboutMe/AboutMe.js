@@ -11,7 +11,7 @@ const AboutMe = () => {
 
 
     return (
-        <div className="container">
+        <div id="about" className="container">
             <span className="divider component-title m-5">About</span>
             <div className="d-flex">
             <div className="row text-white align-items-center justify-content-center">
