@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Tilt from 'react-tilt';
 
 const SingleProject = (props) => {
-  const { title, description, img, img2, img3, gitHubRepo, liveLink } = props.project;
+  const { title, description, img, gitHubRepo, liveLink } = props.project;
 
   return (
 
