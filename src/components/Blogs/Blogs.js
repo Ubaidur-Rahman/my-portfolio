@@ -2,8 +2,8 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div>
-            Coming soon..
+        <div >
+            <h1 className="divider component-title">Blogs</h1>
         </div>
     );
 };

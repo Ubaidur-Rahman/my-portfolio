@@ -6,11 +6,13 @@
     color: #252934;
 }
 header{
-	background-color: #071e3d;
 	display: block;
-	
+	background: url(./../../images/shape_10.04645597.png);
 	margin-top: 0;
 	padding: 100px;
+}
+.name-color{
+	color: #278ea5;
 }
 
 .fixed-part{
@@ -18,7 +20,7 @@ header{
 	color: #ffffff;
 	font-family: verdana;
 	/*for get this part in the center. to move change the top and left value.*/
-	margin: 50px 0 0 0;
+	margin: 100 0 0 0;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -35,16 +37,13 @@ header{
 
 @media(max-width:576px){
 	.changing-part{
-		font-size: 20px;
+		font-size: 25px;
 	}
-    .fixed-part{
-        font-size: 20px;
-    }
 }
 
 .changing-text{
 	display: inline-block;
-	animation: rotate 6s infinite;
+	animation: rotate 12s infinite;
 }
 
 @keyframes rotate{
@@ -61,6 +60,6 @@ header{
 		transform: translateY(-155px);
 	}
 	100%{
-		transform: translateY(-5px);
+		transform: translateY(-0px);
 	}
 }

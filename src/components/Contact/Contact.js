@@ -16,23 +16,29 @@ const Contact = () => {
     e.target.reset();
   }
   return (
-    <div className='mb-5' style={{ backgroundColor: "#F4FDFB" }}>
-      <div className="container">
-        <h3 className='text-center'>Contact</h3>
+    <div className="row d-flex justify-content-center">
+    <h2 className='component-title m-5'>Contact</h2>
+      <div className="col-md-6 ">
+      <div className='mb-5' style={{ backgroundColor: "#EFEFEF" ,borderRadius: '15px' }}>
+      <div className="contact-container">
+        
         <form onSubmit={handleSubmit}>
           <label for="fname">Name</label>
-          <input type="text" id="fname" name="name" placeholder="Your name.." />
+          <input className="shadow" type="text" id="fname" name="name" placeholder="Your name.." />
 
           <label for="fname">Email</label>
-          <input type="text" id="email" name="email" placeholder="Email Address" />
+          <input className="shadow" type="text" id="email" name="email" placeholder="Email Address" />
 
           <label for="message">Message</label>
-          <textarea id="message" name="message" placeholder="Write Your Message" style={{ height: "200px" }}></textarea>
+          <textarea className="shadow" id="message" name="message" placeholder="Write Your Message" style={{ height: "200px" }}></textarea>
 
-          <input className="btn custom-btn-bg" type="submit" value="Send Email" />
+          <input className="btn custom-btn-bg w-100" type="submit" value="Send Email" />
         </form>
       </div>
 
+    </div>
+      </div>
+      <hr style={{ height: "5px", color: "white"}}/>
     </div>
 
   );

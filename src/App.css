@@ -1,3 +1,65 @@
 .App {
   background-color: #071E3D;
 }
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #252934;
+}
+.custom-btn-bg, .custom-btn:hover{
+  background-color: #05C2C9;
+  padding: 10px 25px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 100px;
+  color: white;
+  text-transform: uppercase;
+  transition: .8s;
+}
+.custom-btn-bg:hover, .custom-btn{
+  border: 1px solid #07051b;
+  color: #203334;
+}
+.component-title{
+  color: #05C2C9;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+}
+.divider:after,.divider:before {
+  content:"";
+  display:inline-block;
+  width:10%;
+  height:2px;
+  vertical-align:middle;
+  text-align: center;
+}
+.divider:after {
+  background-image:-webkit-linear-gradient(right,rgba(255,255,255,0),#6b6b6b);
+  margin-left:4px;
+}
+.divider:before {
+  background-image:-webkit-linear-gradient(left,rgba(255,255,255,0),#696969);
+  margin-right:4px;
+}
+.divider {
+  display: inherit;
+  text-align: center;
+}
+.image-bg{
+  background: url(./images/topleft2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
