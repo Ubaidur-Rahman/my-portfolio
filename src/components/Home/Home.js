@@ -7,7 +7,7 @@ import Projects from '../Projects/Projects';
 
 const Home = () => {
     return (
-        <div id="home">
+        <div>
         <Header />
         <AboutMe />
         <Projects />

@@ -7,7 +7,8 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg sticky-lg-top bg-navbar">
             <div className="container-fluid">
-                <Link to="/" className="text-white"><img style={{ height: '66px' }} src="" alt="" /></Link>
+                {/* <Link to="/" className="text-white"><img style={{ height: '66px' }} src="" alt="" /></Link> */}
+                <h2 className="text-white">UBAIDUR RAHMAN</h2>
                 <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
