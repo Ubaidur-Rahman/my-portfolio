@@ -23,7 +23,7 @@ const Projects = () => {
             img2: interior2,
             img3: interior3,
             description: "A Single page web app with dashboard where people can pick a service for their home or office interior design. People can see their order, share their valuable comment about any service from his dashboard . people can payment with debit or credit card. An admin can review order list, handle order status, make an admin or add a service from his dashboard.",
-            gitHubRepo: "",
+            gitHubRepo: "https://github.com/Ubaidur-Rahman/Haven-interior-client",
             liveLink: "https://haven-interior-design.web.app/"
         },
         {
@@ -33,7 +33,7 @@ const Projects = () => {
             img2: municipal2,
             img3: municipal3,
             description: "The website has a list of vehicles. You can ride anywhere using this vehicle. On the home page, you'll see the names of all the cars you click on.If you are not a logged in user, you can sign up with your email first and then login. You can log in using your Google or Facebook account.After logging in, you can see Google Maps and a search area by clicking anywhere on the home page or destination button. In the search box, you can type where you want to go and click the search button to see which cars are available for you to drive.",
-            gitHubRepo: "",
+            gitHubRepo: "https://github.com/Ubaidur-Rahman/municipal-transports",
             liveLink: "https://municipal-transports.web.app/"
         },
 
@@ -45,7 +45,7 @@ const Projects = () => {
             img2: finest2,
             img3: finest3,
             description: "The website is a simple e-Commerce website. it has Login system and also have an Admin Panel. If you are an Admin you can add, delete or edit a product. if you are an User you can buy product as much as you need.You can see your checkout products in the orders page.",
-            gitHubRepo: "",
+            gitHubRepo: "https://github.com/Ubaidur-Rahman/finest-foods-client",
             liveLink: "https://finest-foods.web.app/"
         },
         {
@@ -55,7 +55,7 @@ const Projects = () => {
             img2: teamOfEpl2,
             img3: teamOfEpl3,
             description: "The website is a list of all the Premier League clubs with detailed information. On the home page, you can see all the club names, their badges and an Explorer button. If you click the Explore button, you'll see detailed information about the club you clicked. You will see when the club was founded, with the club logo, club description, name of the stadium with details, image of the club jersey and stadium.You'll see three clickable social icons to connect with the club via social media and click on these icons to see their updated news.",
-            gitHubRepo: "",
+            gitHubRepo: "https://github.com/Ubaidur-Rahman/teams-of-EPL",
             liveLink: "https://focused-albattani-9ab2e3.netlify.app/"
         },
         {
@@ -64,8 +64,8 @@ const Projects = () => {
             img: penguin,
             img2: penguin2,
             img3: penguin3,
-            description: "The website is a list of all the Premier League clubs with detailed information. On the home page, you can see all the club names, their badges and an Explorer button. If you click the Explore button, you'll see detailed information about the club you clicked. You will see when the club was founded, with the club logo",
-            gitHubRepo: "",
+            description: "A static, simple single page Ecommerce website design.different cloths are available for man and woman. Responsible for Mobile, Tablet and Laptop view. basically it's a figma to HTML design",
+            gitHubRepo: "https://github.com/Ubaidur-Rahman/penguin-fashion-responsive",
             liveLink: "https://ubaidur-rahman.github.io/penguin-fashion-responsive/"
         },
     ]

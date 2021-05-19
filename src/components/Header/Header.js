@@ -14,7 +14,10 @@ const Header = () => {
 
     return (
         <header>
-            <h1 className="fixed-part">
+        
+        
+            <h1 className="fixed-part row">
+            
                 <div data-aos="flip-right">
                     <Tilt className="Tilt" options={{ max: 50 }} >
                         <div className="Tilt-inner">
@@ -32,7 +35,10 @@ const Header = () => {
                     </Tilt>
                     <a className="align-items-end" rel="noreferrer" href={resume} target="_blank" download="Resume-of-ubaidur"><button className="btn custom-btn-bg m-3" >Download Resume <FontAwesomeIcon icon={faFileDownload} /> </button></a>
                 </div>
+                
             </h1>
+            
+            
         </header>
     );
 };

@@ -72,7 +72,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="copyright-area">
-                    <div className="container-fluid">
+                    <div className="">
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 text-center text-lg-left">
                                 <div className="copyright-text">
@@ -93,7 +93,6 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </footer>
     );

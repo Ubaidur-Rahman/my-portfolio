@@ -10,8 +10,11 @@ input[type=text],input[type=number], select, textarea {
   }
   
   .contact-container {
+    background: url(./../../images/paper-airplanes-flying-from-lines-particle-style-design_41814-315.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 0;
     border-radius: 15px;
-    background-color: #FFFFFF;
+    /* background-color: #e2e2e2; */
     padding: 20px;
   }
