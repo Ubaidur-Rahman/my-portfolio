@@ -21,13 +21,13 @@
   transition: .8s;
 }
 .custom-btn-bg:hover, .custom-btn{
-  border: 1px solid #07051b;
-  color: #203334;
+  color: #000000;
+  background-color: #059bc9;
 }
 .component-title{
   color: #05C2C9;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   margin: 10px;
   text-align: center;
@@ -42,20 +42,21 @@
 }
 .divider:after {
   background-image:-webkit-linear-gradient(right,rgba(255,255,255,0),#6b6b6b);
-  margin-left:4px;
+  margin-left:8px;
 }
 .divider:before {
   background-image:-webkit-linear-gradient(left,rgba(255,255,255,0),#696969);
-  margin-right:4px;
+  margin-right:8px;
 }
 .divider {
   display: inherit;
   text-align: center;
 }
 .image-bg{
-  background: url(./images/topleft2.jpg);
+  background: url(./images/download.png);
   background-repeat: no-repeat;
   background-size: cover;
+  opacity:0.8;
 }
 .my-image{
   display: block;

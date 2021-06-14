@@ -32,7 +32,7 @@ const Projects = () => {
             img: municipal,
             img2: municipal2,
             img3: municipal3,
-            description: "The website has a list of vehicles. You can ride anywhere using this vehicle. On the home page, you'll see the names of all the cars you click on.If you are not a logged in user, you can sign up with your email first and then login. You can log in using your Google or Facebook account.After logging in, you can see Google Maps and a search area by clicking anywhere on the home page or destination button. In the search box, you can type where you want to go and click the search button to see which cars are available for you to drive.",
+            description: "The website has a list of vehicles. On the home page, you'll see the names of all the cars you click on.If you are not a logged in user, you can sign up with your email first and then login. You can log in using your Google or Facebook account.After logging in, you can see Google Maps and a search area by clicking anywhere on the home page or destination button. In the search box, you can type where you want to go and click the search button to see which cars are available for you to drive.",
             gitHubRepo: "https://github.com/Ubaidur-Rahman/municipal-transports",
             liveLink: "https://municipal-transports.web.app/"
         },
@@ -44,7 +44,7 @@ const Projects = () => {
             img: finest,
             img2: finest2,
             img3: finest3,
-            description: "The website is a simple e-Commerce website. it has Login system and also have an Admin Panel. If you are an Admin you can add, delete or edit a product. if you are an User you can buy product as much as you need.You can see your checkout products in the orders page.",
+            description: "It's is a simple e-Commerce website. it has Login system and also have an Admin Panel. If you are an Admin you can add, delete or edit a product. if you are an User you can buy product as much as you need.You can see your checkout products in the orders page.",
             gitHubRepo: "https://github.com/Ubaidur-Rahman/finest-foods-client",
             liveLink: "https://finest-foods.web.app/"
         },

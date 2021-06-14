@@ -61,8 +61,9 @@ function App() {
             }
           },
         }}
-        height="60vh"
+        height="70vh"
       />
+      
             <Home />
             <Footer />
             
